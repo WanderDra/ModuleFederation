@@ -3,6 +3,13 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "data-sharing": [
+        "dist/data-sharing/data-sharing",
+        "dist/data-sharing"
+      ],
+      "@SharedData/libs": ["projects/data-sharing/src/lib/data-sharing.service.ts"]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
